@@ -1,6 +1,6 @@
 {
   "id": "hajimi",
   "displayName": "哈吉米",
-  "description": "一只参考紫发猫耳少女原型制作的 Codex App 自定义宠物：可爱像素风，包含低频撩发待机、眨眼、左右拖动奔跑、跳跃、等待和 review 状态。",
+  "description": "可爱的 Codex App 自定义像素宠物。事件动作已按 Codex 状态优化：低频待机、左右拖动奔跑、悬停跳跃、等待提示、运行思考、失败提示和完成爱心闪光；角色本体建模保持不变。",
   "spritesheetPath": "spritesheet.png"
 }

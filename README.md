@@ -2,6 +2,8 @@
 
 ![哈吉米待机预览](preview/idle-preview.gif)
 
+![哈吉米事件帧预览](preview/event-preview.png)
+
 「哈吉米」是一个 Codex App 自定义宠物：紫发猫耳、红色蝴蝶结、牛仔背带裙和猫尾的小像素伙伴。当前版本重点优化了待机表现：站立为主，低频轻触发夹，避免一直撩头发。
 
 ## 特性
@@ -28,6 +30,20 @@ cp -R hajimi ~/.codex/pets/hajimi
 ```bash
 ./install.sh
 ```
+
+## Codex 事件动作
+
+| Codex 状态 | 使用帧行 | 哈吉米动作设计 |
+| --- | --- | --- |
+| `idle` | row 0, c0-c5 | 稳定站立、轻眨眼、低频轻触发夹 |
+| `running-right` | row 1 | 向右拖动时侧身奔跑 |
+| `running-left` | row 2 | 向左拖动时侧身奔跑 |
+| `waving` | row 3 | 保留状态，设计为小爱心/闪光打招呼 |
+| `jumping` | row 4 | 鼠标悬停时可爱小跳跃，落回站姿 |
+| `failed` | row 5 | 阻塞/失败时小汗滴和提示泡泡 |
+| `waiting` | row 6 | 需要输入/授权时问号提示泡泡 |
+| `running` | row 7 | Codex 思考/运行时代码泡泡循环 |
+| `review` | row 8 | 完成/可查看时爱心与闪光成功动效 |
 
 ## 文件结构
 
