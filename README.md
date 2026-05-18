@@ -11,7 +11,7 @@
 - 可爱像素风猫耳少女，尽量保留原型的紫发、猫耳、红蝴蝶结、背带裙、爱心细节和尾巴。
 - 待机包含稳定站姿、轻微眨眼和低频撩发/触发夹动作。
 - 拖动时包含左右方向奔跑帧。
-- 包含跳跃、等待、运行、review 等 Codex App 宠物状态帧。
+- 包含悬浮反应、等待、运行、review 等 Codex App 宠物状态帧。
 - `spritesheet.png` 保持 Codex App 自定义宠物需要的 `1536 × 1872`、`8 × 9` 网格格式。
 
 ## 安装
@@ -39,7 +39,7 @@ cp -R hajimi ~/.codex/pets/hajimi
 | `running-right` | row 1 | 向右拖动时侧身奔跑 |
 | `running-left` | row 2 | 向左拖动时侧身奔跑 |
 | `waving` | row 3 | 保留状态，设计为小爱心/闪光打招呼 |
-| `jumping` | row 4 | 鼠标悬停时可爱小跳跃，落回站姿 |
+| `jumping` | row 4 | Codex 内部悬浮状态；视觉上改为轻眨眼/小爱心，不再跳跃 |
 | `failed` | row 5 | 阻塞/失败时小汗滴和提示泡泡 |
 | `waiting` | row 6 | 需要输入/授权时问号提示泡泡 |
 | `running` | row 7 | Codex 思考/运行时代码泡泡循环 |
